@@ -1,0 +1,83 @@
+body{
+    
+    background-image: linear-gradient(to right, rgb(189, 240, 244), rgb(70, 205, 233));
+}
+#wrapper
+{background-image: linear-gradient(to right, rgb(189, 240, 244), rgb(70, 205, 233));
+width: 50vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: auto;
+border-radius: 1rem;
+}
+.main_heading{
+text-align: center;
+text-transform: uppercase;
+}
+
+.logo{
+display: flex;
+justify-content: center;
+margin-bottom: 1rem;
+}
+.logo img{
+width: 40vw;
+height: 15vh;
+}
+
+form{
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+form label{
+width: 30vw;
+margin-bottom: 0.5em;
+font-weight: 600;
+}
+
+form input{
+margin-bottom: 30px;
+width: 30vw;
+padding: 0.5em;
+
+}
+form select{
+width: 30vw;
+padding: 0.5em;
+margin-bottom: 30px;
+}
+form select option{
+width: 30vw;
+padding: 0.5em;
+margin-bottom: 30px;
+}
+.fav{
+width: 60vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.fav_lang{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.fav_lang input{
+margin-top: 25px;
+}
+.btn{
+display: flex;
+justify-content: center;
+padding: 0.5rem;
+}
