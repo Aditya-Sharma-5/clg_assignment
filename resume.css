@@ -1,0 +1,43 @@
+
+body{
+    font-size: large;
+}
+.container{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;  
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(212, 237, 242));
+    /* align-items:center; */
+    margin:auto;
+    padding:0 , 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+    padding-right: 10%;
+}
+.certify{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+    padding-right: 20px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+}
+span{
+    font-weight: 900;
+
+}
+p{
+    font-weight:600;
+
+}
